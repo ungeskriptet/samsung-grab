@@ -1,0 +1,9 @@
+*
+!.gitignore
+!default.nix
+!flake.lock
+!flake.nix
+!lock.*.json
+!pyproject.toml
+!samsung_grab/
+!samsung_grab/*

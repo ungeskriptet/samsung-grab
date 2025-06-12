@@ -1,0 +1,138 @@
+{
+  "fetchPipMetadata": {
+    "sources": {
+      "apprise": {
+        "is_direct": false,
+        "sha256": "e9b5abb73244c21a30ee493860f8d4ae80665d225b1b436179d48db4f6fc5b9e",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/3f/88/25a6459e3a8ec9ceb7af2a103e0b2a3efbc3ffd16cb15ea024b0008c678d/apprise-1.9.3-py3-none-any.whl",
+        "version": "1.9.3"
+      },
+      "certifi": {
+        "is_direct": false,
+        "sha256": "30350364dfe371162649852c63336a15c70c6510c2ad5015b21c2345311805f3",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/4a/7e/3db2bd1b1f9e95f7cddca6d6e75e2f2bd9f51b1246e546d88addca0106bd/certifi-2025.4.26-py3-none-any.whl",
+        "version": "2025.4.26"
+      },
+      "charset-normalizer": {
+        "is_direct": false,
+        "sha256": "cddf7bd982eaa998934a91f69d182aec997c6c468898efe6679af88283b498d3",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/ee/8a/1a5e33b73e0d9287274f899d967907cd0bf9c343e651755d9307e0dbf2b3/charset_normalizer-3.4.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "version": "3.4.2"
+      },
+      "click": {
+        "is_direct": false,
+        "sha256": "61a3265b914e850b85317d0b3109c7f8cd35a670f963866005d6ef1d5175a12b",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl",
+        "version": "8.2.1"
+      },
+      "idna": {
+        "is_direct": false,
+        "sha256": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+        "version": "3.10"
+      },
+      "markdown": {
+        "is_direct": false,
+        "sha256": "794a929b79c5af141ef5ab0f2f642d0f7b1872981250230e72682346f7cc90dc",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/51/3f/afe76f8e2246ffbc867440cbcf90525264df0e658f8a5ca1f872b3f6192a/markdown-3.8-py3-none-any.whl",
+        "version": "3.8"
+      },
+      "oauthlib": {
+        "is_direct": false,
+        "sha256": "8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/7e/80/cab10959dc1faead58dc8384a781dfbf93cb4d33d50988f7a69f1b7c9bbe/oauthlib-3.2.2-py3-none-any.whl",
+        "version": "3.2.2"
+      },
+      "pyyaml": {
+        "is_direct": false,
+        "sha256": "1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c3/93/9916574aa8c00aa06bbac729972eb1071d002b8e158bd0e83a3b9a20a1f7/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "version": "6.0.2"
+      },
+      "requests": {
+        "is_direct": false,
+        "sha256": "27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/7c/e4/56027c4a6b4ae70ca9de302488c5ca95ad4a39e190093d6c1a8ace08341b/requests-2.32.4-py3-none-any.whl",
+        "version": "2.32.4"
+      },
+      "requests-oauthlib": {
+        "is_direct": false,
+        "sha256": "7dd8a5c40426b779b0868c404bdef9768deccf22749cde15852df527e6269b36",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/3b/5d/63d4ae3b9daea098d5d6f5da83984853c1bbacd5dc826764b249fe119d24/requests_oauthlib-2.0.0-py2.py3-none-any.whl",
+        "version": "2.0.0"
+      },
+      "setuptools": {
+        "is_direct": false,
+        "sha256": "062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl",
+        "version": "80.9.0"
+      },
+      "tinydb": {
+        "is_direct": false,
+        "sha256": "f97030ee5cbc91eeadd1d7af07ab0e48ceb04aa63d4a983adbaca4cba16e86c3",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/78/17/853354204e1ca022d6b7d011ca7f3206c4f8faa3cc743e92609b49c1d83f/tinydb-4.8.2-py3-none-any.whl",
+        "version": "4.8.2"
+      },
+      "tqdm": {
+        "is_direct": false,
+        "sha256": "26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl",
+        "version": "4.67.1"
+      },
+      "urllib3": {
+        "is_direct": false,
+        "sha256": "4e16665048960a0900c702d4a66415956a584919c03361cac9f1df5c5dd7e813",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/6b/11/cc635220681e93a0183390e26485430ca2c7b5f9d33b15c74c2861cb8091/urllib3-2.4.0-py3-none-any.whl",
+        "version": "2.4.0"
+      }
+    },
+    "targets": {
+      "default": {
+        "apprise": [
+          "certifi",
+          "click",
+          "markdown",
+          "pyyaml",
+          "requests",
+          "requests-oauthlib"
+        ],
+        "certifi": [],
+        "charset-normalizer": [],
+        "click": [],
+        "idna": [],
+        "markdown": [],
+        "oauthlib": [],
+        "pyyaml": [],
+        "requests": [
+          "certifi",
+          "charset-normalizer",
+          "idna",
+          "urllib3"
+        ],
+        "requests-oauthlib": [
+          "oauthlib",
+          "requests"
+        ],
+        "setuptools": [],
+        "tinydb": [],
+        "tqdm": [],
+        "urllib3": []
+      }
+    }
+  },
+  "invalidationHash": "0ad993509ef4c26d4982afdf7f7e18245280c89b9d2ce714582e8a90e50fc622"
+}

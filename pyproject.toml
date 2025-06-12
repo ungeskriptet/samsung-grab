@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samsung-grab"
+version = "0.0.1"
+dependencies = [
+    "apprise",
+    "requests",
+    "tinydb",
+    "tqdm"
+]
+
+[project.scripts]
+samsung-grab = "samsung_grab.samsung_grab:main"
