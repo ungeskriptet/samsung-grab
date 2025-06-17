@@ -1,0 +1,13 @@
+*
+
+# Python files
+!.gitignore
+!pyproject.toml
+!samsung_grab/
+!samsung_grab/*
+
+# Nix files
+!config.nix
+!flake.lock
+!flake.nix
+!pkg.nix
