@@ -1,0 +1,21 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "samsung-grab"
+version = "0.0.1"
+dependencies = [
+    "apprise",
+    "beautifulsoup4",
+    "lxml",
+    "requests",
+    "tinydb",
+    "tqdm"
+]
+
+[project.scripts]
+samsung-grab = "samsung_grab.samsung_grab:main"
+
+[tool.pdm]
+distribution = true
