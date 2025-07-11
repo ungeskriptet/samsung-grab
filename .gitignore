@@ -11,3 +11,6 @@
 !flake.lock
 !flake.nix
 !pkg.nix
+
+# Miscellaneous
+!LICENSE
