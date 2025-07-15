@@ -47,8 +47,8 @@ def task(args):
                     if args.notify_file:
                         with open(args.notify_file, 'r') as file:
                             apobj.add(file.read())
-                    apobj.notify(title='samsung-grab',
-                                 body=f'New task claimed: {task["version"]}')
+                    apobj.notify(title='samsung-grab: new task',
+                                 body=SAMSUNG_URL + task['version'])
                 if not args.all:
                     break
             elif 'error' in task:
