@@ -11,6 +11,8 @@ import requests
 
 BASE_URL = 'https://data.nicolas17.xyz/samsung-grab'
 SAMSUNG_URL = 'https://opensource.samsung.com/uploadSearch?searchValue='
+USER_AGENT = ('https://codeberg.org/ungeskriptet/samsung-grab ' +
+              'Report issues to ungeskriptet!')
 
 if environ.get('SAMSUNGGRAB_DB'):
     DB_PATH = Path(environ.get('SAMSUNGGRAB_DB')).expanduser()
@@ -34,7 +36,9 @@ def task(args):
     try:
         while True:
             username = {'username': (None, args.username)}
-            task = requests.post(url=f'{BASE_URL}/get_task', files=username).json()
+            task = requests.post(url=f'{BASE_URL}/get_task',
+                                 files=username,
+                                 headers={'User-Agent': USER_AGENT}).json()
 
             if 'task_id' in task:
                 if not db.search(Query()['task_id'] == task['task_id']):
@@ -82,7 +86,10 @@ def upload(args):
             'task_id': task['task_id'],
             'file_size': file.stat().st_size,
         }
-        headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+        headers = {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': USER_AGENT
+        }
         upload_url = requests.post(url=f'{BASE_URL}/begin_upload', data=data,
                                    headers=headers).json()
         if 'uploadURL' in upload_url:
@@ -102,7 +109,6 @@ def upload(args):
                 upload = requests.put(url=upload_url, data=wrapped_file)
                 if upload.status_code == 200:
                     data = {'task_id': task['task_id']}
-                    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
                     status = requests.post(url=f'{BASE_URL}/complete_upload', data=data,
                                            headers=headers).json()['status']
                     if status == 'ok':
