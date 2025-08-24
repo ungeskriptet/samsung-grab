@@ -4,8 +4,7 @@
 }:
 
 python3Packages.buildPythonPackage {
-  pname = "samsung-grab";
-  version = "0-unstable-2025-06-17";
+  name = "samsung-grab";
   pyproject = true;
 
   src = ./.;
